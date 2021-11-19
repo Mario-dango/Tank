@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "Enable",
+    "files.associations": {
+        "ctime": "cpp",
+        "vector": "cpp",
+        "climits": "cpp"
+    }
+}

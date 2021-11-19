@@ -1,0 +1,26 @@
+window_sizes 1920 1001 173 1741 819 128
+
+diagrams
+  active  classdiagram_ref 128130 // All
+    1727 774 169 A4-Landscape 354 0
+end
+show_stereotypes
+selected classrelation_ref 129282 // <directional aggregation>
+open
+  operation_ref 129026 // avanzar
+  classrelation_ref 128258 // <association>
+  operation_ref 129154 // retroceder
+  classrelation_ref 128642 // <directional aggregation>
+  class_ref 134786 // Sensor_temp
+  attribute_ref 129666 // state
+  classrelation_ref 128002 // <directional aggregation>
+  classrelation_ref 129922 // <association>
+  operation_ref 128002 // enables
+  operation_ref 128130 // avanzar
+  operation_ref 128770 // ldr
+  operation_ref 128642 // dir_d
+  operation_ref 128514 // dir_i
+  operation_ref 128386 // step_d
+  class_ref 135298 // APP_CLIENT
+end
+end

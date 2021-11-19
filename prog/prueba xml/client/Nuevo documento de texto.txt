@@ -1,0 +1,3 @@
+b"<?xml version='1.0'?>
+<methodResponse>
+<params><param>\n<value><struct>\n<member>\n<name>param_1</name>\n<value><string>11</string></value>\n</member>\n<member>\n<name>param_2</name>\n<value><string>22</string></value>\n</member>\n<member>\n<name>param_N</name>\n<value><string>NN</string></value>\n</member>\n</struct></value>\n</param>\n</params>\n</methodResponse>\n"

@@ -1,0 +1,79 @@
+format 224
+"PK_client" // PK_client
+  revision 1
+  modified_by 2 "mario"
+  // class settings
+  
+  classdiagramsettings member_max_width 0 end
+  
+  classcompositediagramsettings end
+  
+  usecasediagramsettings end
+  
+  sequencediagramsettings end
+  
+  collaborationdiagramsettings end
+  
+  objectdiagramsettings end
+  
+  objectcompositediagramsettings end
+  
+  componentdiagramsettings
+   end
+  
+  deploymentdiagramsettings
+   end
+  
+  statediagramsettings
+   end
+  
+  activitydiagramsettings
+   end
+  
+  stereotype "Programa cliente"
+  classview 134786 "Cliente"
+    
+    classdiagramsettings member_max_width 0 end
+    
+    classcompositediagramsettings end
+    
+    collaborationdiagramsettings end
+    
+    objectdiagramsettings end
+    
+    objectcompositediagramsettings end
+    
+    sequencediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    
+    activitydiagramsettings
+     end
+    class 135298 "APP_CLIENT"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 129154 // Servidor (<association>)
+	relation_ref 128770 // <association>
+      end
+
+      classrelation 129666 // <generalisation>
+	relation 129282 ---|>
+	  a public
+	    python "${type}"
+	    classrelation_ref 129666 // <generalisation>
+	  b parent class_ref 135426 // tb
+      end
+    end
+  end
+end

@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "C:\\Users\\mario\\Documents\\UNCuyo\\Por Cursar\\POO\\Proyecto Libre\\prog\\Tan-K\\Lib",
+                "C:\\Users\\mario\\Documents\\Lib_cpp_vscode"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86"
+        }
+    ],
+    "version": 4
+}
